@@ -1,0 +1,32 @@
+{
+  "name": "hapi-brick-methodloader",
+  "version": "1.0.0",
+  "description": "The method loader of the hapi-brick stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab --verbose --coverage --timeout 1000 --pattern .spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caligone/hapi-brick-methodloader.git"
+  },
+  "author": "Caligone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Caligone/hapi-brick-methodloader/issues"
+  },
+  "peerDependencies": {
+    "hapi-brick": "^0.2.1",
+    "hapi": "^16.4.3"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "coveralls": "^2.11.15",
+    "lab": "^14.1.0",
+    "sinon": "^2.3.6"
+  },
+  "homepage": "https://github.com/Caligone/hapi-brick-methodloader",
+  "dependencies": {
+    "hapi-brick-loader": "^0.1.0"
+  }
+}
